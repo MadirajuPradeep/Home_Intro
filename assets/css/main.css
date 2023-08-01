@@ -2280,3 +2280,50 @@ button,
   transition: all ease-in-out 0.3s;
   margin: 10px
 }
+.imgg{
+border-radius: 0.375em;
+align:"left";
+  border: 0;
+  display: inline-block;
+  position: relative; }
+
+  .exptxt{
+    color: #ffffff;
+    font-family: 'Open Sans';
+  }
+
+  #Twitter,
+  #Video_Membership,
+  #Movie_Recommender,
+  #COVID_19_Detector,
+  #Gender_Clasification,
+  #Miscellaneous,
+  #Contacts{
+    position:fixed;
+    top:40%;
+    left: 60%;
+    transform:translate(-50%, -50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow:0 5px 30px rgba(0,0,0,.30);
+    background: #ffffff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+  }
+
+  #Twitter.active,
+  #Video_Membership.active,
+  #Movie_Recommender.active,
+  #COVID_19_Detector.active,
+  #Gender_Clasification.active,
+  #Miscellaneous.active,
+  #Contacts.active{
+    top:40%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+  }
+  
+
+  
