@@ -2300,7 +2300,7 @@ align:"left";
   #Miscellaneous,
   #Contacts{
     position:fixed;
-    top:40%;
+    top:50%;
     left: 60%;
     transform:translate(-50%, -50%);
     width: 600px;
@@ -2319,7 +2319,7 @@ align:"left";
   #Gender_Clasification.active,
   #Miscellaneous.active,
   #Contacts.active{
-    top:40%;
+    top:50%;
     visibility: visible;
     opacity: 1;
     transition: 0.5s;
